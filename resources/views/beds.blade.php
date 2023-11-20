@@ -13,7 +13,7 @@
           <!-- links -->
           <div class="hero-info-links">
             <ul>
-              <li><a href="beds.html">BEDS</a></li>
+              <li><a href="{{ Route('beds') }}">BEDS</a></li>
               <li><a href="#">Item2</a></li>
               <li><a href="#">Item3</a></li>
               <li><a href="#">Item4</a></li>
@@ -33,7 +33,7 @@
         <div class="item-card">
           <!-- image -->
           <div class="item-card-image">
-            <a href="product-details.html"><img src="assets/furniture3.jpg" alt="furniture"></a>
+            <a href="{{ Route('productdetails') }}"><img src="assets/furniture3.jpg" alt="furniture"></a>
             <span>Save 20%</span>
           </div><br>
           <!-- Name -->
@@ -50,7 +50,7 @@
         <div class="item-card">
           <!-- image -->
           <div class="item-card-image">
-            <a href="product-details.html"><img src="assets/furniture3.jpg" alt="furniture"></a>
+            <a href="{{ Route('productdetails') }}"><img src="assets/furniture3.jpg" alt="furniture"></a>
             <span>Save 20%</span>
           </div><br>
           <!-- Name -->
@@ -67,7 +67,7 @@
         <div class="item-card">
           <!-- image -->
           <div class="item-card-image">
-            <a href="product-details.html"><img src="assets/furniture3.jpg" alt="furniture"></a>
+            <a href="{{ Route('productdetails') }}"><img src="assets/furniture3.jpg" alt="furniture"></a>
             <span>Save 20%</span>
           </div><br>
           <!-- Name -->
@@ -84,7 +84,7 @@
         <div class="item-card">
           <!-- image -->
           <div class="item-card-image">
-            <a href="product-details.html"><img src="assets/furniture3.jpg" alt="furniture"></a>
+            <a href="{{ Route('productdetails') }}"><img src="assets/furniture3.jpg" alt="furniture"></a>
             <span>Save 20%</span>
           </div><br>
           <!-- Name -->
@@ -101,7 +101,7 @@
         <div class="item-card">
           <!-- image -->
           <div class="item-card-image">
-            <a href="product-details.html"><img src="assets/furniture3.jpg" alt="furniture"></a>
+            <a href="{{ Route('productdetails') }}"><img src="assets/furniture3.jpg" alt="furniture"></a>
             <span>Save 20%</span>
           </div><br>
           <!-- Name -->
@@ -118,7 +118,7 @@
         <div class="item-card">
           <!-- image -->
           <div class="item-card-image">
-            <a href="product-details.html"><img src="assets/furniture3.jpg" alt="furniture"></a>
+            <a href="{{ Route('productdetails') }}"><img src="assets/furniture3.jpg" alt="furniture"></a>
             <span>Save 20%</span>
           </div><br>
           <!-- Name -->
@@ -135,7 +135,7 @@
         <div class="item-card">
           <!-- image -->
           <div class="item-card-image">
-            <a href="product-details.html"><img src="assets/furniture3.jpg" alt="furniture"></a>
+            <a href="{{ Route('productdetails') }}"><img src="assets/furniture3.jpg" alt="furniture"></a>
             <span>Save 20%</span>
           </div><br>
           <!-- Name -->
@@ -152,7 +152,7 @@
         <div class="item-card">
           <!-- image -->
           <div class="item-card-image">
-            <a href="product-details.html"><img src="assets/furniture3.jpg" alt="furniture"></a>
+            <a href="{{ Route('productdetails') }}"><img src="assets/furniture3.jpg" alt="furniture"></a>
             <span>Save 20%</span>
           </div><br>
           <!-- Name -->
@@ -169,7 +169,7 @@
         <div class="item-card">
           <!-- image -->
           <div class="item-card-image">
-            <a href="product-details.html"><img src="assets/furniture3.jpg" alt="furniture"></a>
+            <a href="{{ Route('productdetails') }}"><img src="assets/furniture3.jpg" alt="furniture"></a>
             <span>Save 20%</span>
           </div><br>
           <!-- Name -->
@@ -186,7 +186,7 @@
         <div class="item-card">
           <!-- image -->
           <div class="item-card-image">
-            <a href="product-details.html"><a href="product-details.html"><img src="assets/furniture3.jpg" alt="furniture"></a></a>
+            <a href="{{ Route('productdetails') }}"><img src="assets/furniture3.jpg" alt="furniture"></a>
             <span>Save 20%</span>
           </div><br>
           <!-- Name -->
