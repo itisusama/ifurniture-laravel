@@ -21,13 +21,13 @@
           <ul class="nav-links">
             <div class="logo"><a href="index.html">iFurniture</a></div>
             <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="{{ Route('home') }}">Home</a></li>
             
             <!-- 1 -->
             <li>
-              <a href="beds.html" class="desktop-item">Beds</a>
+              <a href="{{ Route('beds') }}" class="desktop-item">Beds</a>
               <input type="checkbox" id="showDrop">
-              <label for="showDrop" class="mobile-item"><a href="beds.html" style="text-decoration: none; color: black;">Beds</a></label>
+              <label for="showDrop" class="mobile-item"><a href="{{ Route('beds') }}" style="text-decoration: none; color: black;">Beds</a></label>
               <ul class="drop-menu">
                 <li><a href="#">Drop menu 1</a></li>
                 <li><a href="#">Drop menu 2</a></li>

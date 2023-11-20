@@ -3,6 +3,8 @@
     <title>iFurniture</title>
     <!-- START: CSS files -->
     <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
+    <!-- Styles 2 is specifically for navbar pages and will be used in other pages if needed -->
+    <link rel="stylesheet" href="{{ asset('css/styles2.css') }}">
     <link rel="stylesheet" href="{{ asset('css/nav.css') }}">
     <!-- END: CSS files -->
 
