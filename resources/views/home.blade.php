@@ -2,14 +2,38 @@
 @section('ifurniture-content')
 <!-- START: Home Page Carousel -->
 <section class="home-slider-container" style="margin-top: 100px;">
-      <div class="slider">
-        <div class="slide"><img src="assets/slide1.jpg" alt="Slide 1"></div>
-        <div class="slide"><img src="assets/slide2.jpg" alt="Slide 2"></div>
-        <div class="slide"><img src="assets/slide3.jpg" alt="Slide 3"></div>
-      </div>
-      <div class="arrow left" onclick="prevSlide()">‹</div>
-      <div class="arrow right" onclick="nextSlide()">›</div>
-    </section>
+<div class="s-wrap s-type-1" role="slider">
+    <input type="radio" id="s-1" name="slider-control" checked="checked">
+    <input type="radio" id="s-2" name="slider-control">
+    <input type="radio" id="s-3" name="slider-control">
+    <input type="radio" id="s-4" name="slider-control">
+    <input type="radio" id="s-5" name="slider-control">
+    <ul class="s-content">
+      <li class="s-item s-item-1"></li>
+      <li class="s-item s-item-2"></li>
+      <li class="s-item s-item-3"></li>
+      <li class="s-item s-item-4"></li>
+      <li class="s-item s-item-5"></li>
+    </ul>
+    <div class="s-control">
+      <label class="s-c-1" for="s-1"></label>
+      <label class="s-c-2" for="s-2"></label>
+      <label class="s-c-3" for="s-3"></label>
+      <label class="s-c-4" for="s-4"></label>
+      <label class="s-c-5" for="s-5"></label>
+    </div>
+    <div class="s-nav">
+      <label class="s-nav-1 right" for="s-2"></label>
+      <label class="s-nav-2 left" for="s-1"></label>
+      <label class="s-nav-2 right" for="s-3"></label>
+      <label class="s-nav-3 left" for="s-2"></label>
+      <label class="s-nav-3 right" for="s-4"></label>
+      <label class="s-nav-4 left" for="s-3"></label>
+      <label class="s-nav-4 right" for="s-5"></label>
+      <label class="s-nav-5 left" for="s-4"></label>
+    </div>
+  </div>
+</section>
     <!-- END: Home Page Carousel -->
 
     <!-- START: Product Selection -->
